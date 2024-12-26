@@ -1,3 +1,5 @@
+// 加載旋轉動畫
+
 import { Loader } from "lucide-react";
 
 import { cva, type VariantProps } from "class-variance-authority";

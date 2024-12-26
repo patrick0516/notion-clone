@@ -6,7 +6,8 @@ const MarketingLayout = ({
   children: React.ReactNode;
 }) => {
   return ( 
-    <div className="h-full dark:bg-[#1F1F1F]">
+    <div className="h-full dark:bg-[#1F1F1F]">       
+    {/* 避免切換顏色的衝突 */}
       <Navbar />
       <main className="h-full pt-40">
         {children}

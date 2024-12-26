@@ -1,3 +1,5 @@
+//渲染首頁
+
 "use client";
 
 import { useConvexAuth } from "convex/react";
@@ -13,7 +15,7 @@ import { cn } from "@/lib/utils";
 import { Logo } from "./logo";
 
 export const Navbar = () => {
-  const { isAuthenticated, isLoading } = useConvexAuth();
+  const { isAuthenticated, isLoading } = useConvexAuth();   //建立登入的方式
   const scrolled = useScrollTop();
 
   return (
