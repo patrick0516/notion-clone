@@ -28,7 +28,7 @@ export const Logo = () => {
         className="hidden dark:block"    //避免切換顏色的衝突
       />
       <p className={cn("font-semibold", font.className)}>
-        Jotion
+        111010575 周辰恩
       </p>
     </div>
   )
